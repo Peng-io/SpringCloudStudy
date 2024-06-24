@@ -9,5 +9,5 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: true
-    service-url:
+    service-url: #注意这里填写其他Eureka服务器的地址，不用写自己的
       defaultZone: http://eureka01:8801/eureka

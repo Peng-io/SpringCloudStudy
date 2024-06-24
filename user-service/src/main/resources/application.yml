@@ -8,5 +8,5 @@ spring:
     password: root
 eureka:
   client:
-    service-url:
+    service-url: #注册中心地址
       defaultZone: http://localhost:8801/eureka, http://localhost:8802/eureka

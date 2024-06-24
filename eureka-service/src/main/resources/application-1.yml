@@ -5,9 +5,9 @@ spring:
     name: eurekaserver
 eureka:
   instance:
-    hostname: eureka01
+    hostname: eureka01 #eureka 服务端的实例名称
   client:
-    fetch-registry: false
-    register-with-eureka: true
-    service-url:
+    fetch-registry: false  # false 表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
+    register-with-eureka: true    # false单例模式 表示不向本端注册中心注册自己。
+    service-url: #注意这里填写其他Eureka服务器的地址，不用写自己的
       defaultZone: http://eureka02:8802/eureka
