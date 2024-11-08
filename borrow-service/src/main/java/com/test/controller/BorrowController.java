@@ -1,6 +1,5 @@
 package com.test.controller;
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.test.entity.UserBorrowDetail;
 import com.test.service.BorrowService;
 import org.springframework.web.bind.annotation.PathVariable;
