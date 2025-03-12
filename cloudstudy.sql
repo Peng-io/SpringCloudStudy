@@ -1,19 +1,3 @@
-/*
- Navicat Premium Data Transfer
-
- Source Server         : 腾讯云数据库
- Source Server Type    : MySQL
- Source Server Version : 50718
- Source Host           : cdb-34x5jpzg.cd.tencentcdb.com:10072
- Source Schema         : cloudstudy
-
- Target Server Type    : MySQL
- Target Server Version : 50718
- File Encoding         : 65001
-
- Date: 23/03/2022 11:35:20
-*/
-
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
